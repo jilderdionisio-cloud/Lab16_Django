@@ -43,13 +43,14 @@ Naomi Veliz
 -Clonando repositorio
 ![Proyecto inicial](doc/clonandorepo.png)
 
+
 -Sin Api
 ![Sin Api](doc/apisinconsumo.png)
 
 -Con Api
 ![Con Api](doc/consumodelaapi.png)
 
-- Captura de la home
+- Captura del home
 ![Home](doc/home.png)
 
 - Captura del catálogo
@@ -59,6 +60,7 @@ Naomi Veliz
 ![Detalle de película](doc/detail.png)
 - Captura del carrito y checkout
 ![Agregando al carrito](doc/carrito.png)
+-Pasarela de pago
 ![Pasarela de pago](doc/pago.png)
 
 
