@@ -37,6 +37,8 @@ A continuación se muestran capturas del laboratorio como evidencia visual del a
 
 ![Captura 5](doc/cap5.png)
 
+![Captura 6](doc/cap6.png)
+
 ## Tecnologías utilizadas
 
 - React
