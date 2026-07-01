@@ -1,0 +1,3 @@
+import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
+export function SectionTitle({ eyebrow, title, href }: { eyebrow?: string; title: string; href?: string }) { return <div className="mb-6 flex items-end justify-between gap-4"><div>{eyebrow && <p className="mb-1 text-xs font-bold uppercase tracking-[.2em] text-red-500">{eyebrow}</p>}<h2 className="text-2xl font-bold tracking-tight sm:text-3xl">{title}</h2></div>{href && <Link className="flex shrink-0 items-center gap-1 text-sm text-zinc-400 hover:text-white" to={href}>Ver todo <ArrowRight className="size-4" /></Link>}</div>; }

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+
+@theme inline {
+  --font-sans: "Geist Variable", sans-serif;
+  --color-background: var(--background); --color-foreground: var(--foreground);
+  --color-card: var(--card); --color-card-foreground: var(--foreground);
+  --color-popover: var(--card); --color-popover-foreground: var(--foreground);
+  --color-primary: var(--primary); --color-primary-foreground: white;
+  --color-secondary: var(--secondary); --color-secondary-foreground: var(--foreground);
+  --color-muted: var(--secondary); --color-muted-foreground: #a1a1aa;
+  --color-accent: var(--secondary); --color-accent-foreground: white;
+  --color-destructive: #ef4444; --color-border: rgba(255,255,255,.1);
+  --color-input: rgba(255,255,255,.12); --color-ring: #ef4444;
+  --radius-sm: .5rem; --radius-md: .75rem; --radius-lg: 1rem; --radius-xl: 1.25rem;
+}
+:root { color-scheme: dark; --background: #09090b; --foreground: #fafafa; --card: #18181b; --primary: #dc2626; --secondary: #27272a; }
+@layer base { * { @apply border-border outline-ring/50; } html { @apply scroll-smooth font-sans; } body { @apply m-0 bg-background text-foreground antialiased; } button, a { @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950; } ::selection { @apply bg-red-600 text-white; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }

@@ -1,0 +1,4 @@
+import { Film, Home } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+export function NotFoundPage() { return <div className="grid min-h-[75vh] place-items-center px-5 py-24 text-center"><div><div className="relative mx-auto mb-8 grid size-24 place-items-center rounded-full border border-white/10 bg-white/5"><Film className="size-10 text-red-500" /><span className="absolute -right-3 -top-3 text-4xl font-black text-zinc-700">?</span></div><p className="text-sm font-bold tracking-[.3em] text-red-500">ERROR 404</p><h1 className="mt-3 text-4xl font-black sm:text-5xl">Esta escena no existe</h1><p className="mx-auto mt-4 max-w-md text-zinc-400">La página que buscas quedó fuera del montaje final.</p><Button asChild className="mt-8 h-11 bg-red-600 px-5 text-white hover:bg-red-500"><Link to="/"><Home /> Volver al inicio</Link></Button></div></div>; }
