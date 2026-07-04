@@ -63,6 +63,39 @@ Naomi Veliz
 -Pasarela de pago
 ![Pasarela de pago](doc/pago.png)
 
+## Evidencia de desarrollo
+## Adriana Chinchayhuara
+
+A continuación se muestran capturas del laboratorio como evidencia visual del avance del proyecto:
+
+### Clonación del Repositorio
+![Captura 1](doc/cap1_adriana.jpg)
+![Captura 2](doc/cap2_adriana.jpg)
+
+### Levantamiento del Proyecto
+![Captura 3](doc/cap3_adriana.jpg)
+
+### Consumo de API
+![Captura 4](doc/cap4_adriana.jpg)
+
+### Consumo de API (Home)
+![Captura 5](doc/cap5_adriana.jpg)
+
+### Consumo de API (View Details)
+![Captura 6](doc/cap6_adriana.jpg)
+
+### Implementar estado global (Zustand)
+![Captura 7](doc/cap7_adriana.jpg)
+![Captura 8](doc/cap8_adriana.jpg)
+![Captura 9](doc/cap9_adriana.jpg)
+
+### Mejorando FRONT
+![Captura 10](doc/cap10_adriana.jpg)
+![Captura 11](doc/cap11_adriana.jpg)
+![Captura 12](doc/cap12_adriana.jpg)
+![Captura 13](doc/cap13_adriana.jpg)
+![Captura 14](doc/cap14_adriana.jpg)
+
 
 ## Tecnologías utilizadas
 
